@@ -23,6 +23,11 @@ app.get("/termsandconditions", function(req, res) {
 	res.render("terms&conditions")
 })
 
+app.post("/signup", function(req, res) {
+	// redirect to home page after signing in
+	res.send("YOU HAVE SUCCESSFULLY SIGNED UP!") // delete this later
+})
+
 app.listen(3000, function() {
 	console.log("Our Vedik Server has started...!")
 })
