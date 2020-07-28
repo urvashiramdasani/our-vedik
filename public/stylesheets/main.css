@@ -1,0 +1,11 @@
+#grad {
+	background-image: linear-gradient(to right,#FD7005 ,#E33838);
+   	color:white;
+}
+
+#login {
+  	background-color:#E33838;
+  	outline-color: white;
+  	margin-right:50px;
+  	border-color:white;
+}
