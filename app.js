@@ -8,7 +8,7 @@ app.use(express.static(__dirname + "/public"))
 app.use(express.static(__dirname + "/public"))
 
 app.get("/", function(req, res) {
-	// homepage template goes here.
+	res.render("home")
 })
 
 app.get("/about", function(req, res) {
